@@ -14,7 +14,7 @@ The die or dice will be rolled based on accelerometer tap detect, so for this ca
 
 The display to the user will be a standard 128x32 I2C OLED display. I have written libraries for the 1206 controller, so with modification, I should be able to leverage previous work here.
 
-At least two buttons will included to permit settings changes by the user. These will require two GPIO pins, and may or may not use interrupts (probably not necessary).
+At least two buttons will be included to permit settings changes by the user. These will require two GPIO pins, and may or may not use interrupts (probably not necessary).
 
 This application qualifies for low power operation, so I may battery power the device, but research will be required to determine what kind of battery will be required. Initially, I was thinking of using a pair of CR2032 batteries, and an LDO regulator, but the OLED may require too much current. Research required. The other option is to power the device from USB, but that would limit the device use.
 
