@@ -1848,14 +1848,6 @@
 		(uuid "47caec23-2b4c-444a-89cf-9bb7baff5dd2")
 	)
 	(no_connect
-		(at 128.27 100.33)
-		(uuid "4e55d612-af7d-4eb4-850d-cfb9a5423483")
-	)
-	(no_connect
-		(at 194.31 105.41)
-		(uuid "4e6b8f43-1a64-498f-9a58-0531f4556f24")
-	)
-	(no_connect
 		(at 158.75 82.55)
 		(uuid "5115328a-f382-4252-9e46-4ab897fc98eb")
 	)
@@ -1995,6 +1987,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 113.03) (xy 156.21 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb6494f-6de2-4355-84f2-526e47db8bb3")
+	)
+	(wire
+		(pts
 			(xy 128.27 92.71) (xy 96.52 92.71)
 		)
 		(stroke
@@ -2042,6 +2044,16 @@
 			(type default)
 		)
 		(uuid "5269a8fa-eb08-47ad-8552-654010c0dbd9")
+	)
+	(wire
+		(pts
+			(xy 204.47 134.62) (xy 204.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e547aee-fa66-40ab-8318-c64d39ad9cca")
 	)
 	(wire
 		(pts
@@ -2122,6 +2134,16 @@
 			(type default)
 		)
 		(uuid "8cee181f-21ef-4e64-b48a-8bee56b11f9a")
+	)
+	(wire
+		(pts
+			(xy 128.27 100.33) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6f1921-8e00-4602-a6c8-42ab3c736fd2")
 	)
 	(wire
 		(pts
@@ -2215,6 +2237,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 113.03) (xy 156.21 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c50cf9-f481-4460-95e7-fba5f1035a01")
+	)
+	(wire
+		(pts
 			(xy 196.85 85.09) (xy 196.85 76.2)
 		)
 		(stroke
@@ -2232,6 +2264,16 @@
 			(type default)
 		)
 		(uuid "d5eb4f5a-4078-44d5-a830-73b5f38d9bcf")
+	)
+	(wire
+		(pts
+			(xy 125.73 100.33) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b1e972-77dc-4daf-9ef0-464f7ced9024")
 	)
 	(wire
 		(pts
@@ -2255,6 +2297,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 105.41) (xy 194.31 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e276a860-8749-4db4-b4d0-3ec6e0804098")
+	)
+	(wire
+		(pts
 			(xy 104.14 95.25) (xy 104.14 111.76)
 		)
 		(stroke
@@ -2272,6 +2324,16 @@
 			(type default)
 		)
 		(uuid "f480eaec-13bf-4f20-85f3-656d4c1d08d2")
+	)
+	(wire
+		(pts
+			(xy 156.21 134.62) (xy 204.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9916d96-b9c4-4dcf-9042-e19f0491d143")
 	)
 	(text "Powered by USB on dev board"
 		(exclude_from_sim no)
