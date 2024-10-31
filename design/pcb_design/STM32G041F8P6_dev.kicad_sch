@@ -4918,6 +4918,12 @@
 		(uuid "60567eef-c8bb-45b3-b073-7beec8e1af3e")
 	)
 	(junction
+		(at 43.18 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61f67cb7-dc8b-4d36-98e9-7597255ba969")
+	)
+	(junction
 		(at 26.67 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10354,6 +10360,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 43.18 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f9c0930-42a2-4df3-be08-1cb610718850")
+		(property "Reference" "#PWR028"
+			(at 43.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edb20e49-b312-4a73-a16a-333a2c04c2c3")
+		)
+		(instances
+			(project "STM32G041F8P6_dev"
+				(path "/ee3d00c1-aeff-4118-bd3d-d070c1c83a88"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_ST_STDC14")
 		(at 194.31 74.93 270)
 		(unit 1)
@@ -11958,6 +12030,76 @@
 			(project "STM32G041F8P6_dev"
 				(path "/ee3d00c1-aeff-4118-bd3d-d070c1c83a88"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 43.18 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9c47798-9cd5-468f-8ec7-6ab526596184")
+		(property "Reference" "R11"
+			(at 45.72 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 45.72 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 43.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 43.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f15ee06-b683-4c89-ac8c-5f192e6e1e68")
+		)
+		(pin "1"
+			(uuid "a6b16e70-5561-485b-9043-17aa7fecbe3a")
+		)
+		(instances
+			(project "STM32G041F8P6_dev"
+				(path "/ee3d00c1-aeff-4118-bd3d-d070c1c83a88"
+					(reference "R11")
 					(unit 1)
 				)
 			)
