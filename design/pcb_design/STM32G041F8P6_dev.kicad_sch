@@ -6811,6 +6811,26 @@
 		)
 		(uuid "3fab4cc3-4ad3-4b8f-b1a6-1fd57aa4cda4")
 	)
+	(text "Switches: JLC C513492 Manu: 2-1825910-7"
+		(exclude_from_sim no)
+		(at 137.414 172.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45f2ecce-4dbc-4b05-a08f-8ca6e6698a78")
+	)
+	(text "C3757764"
+		(exclude_from_sim no)
+		(at 38.862 109.474 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "502646e6-224f-4b71-8c0f-9a2e2cae2da6")
+	)
 	(text "C5276598"
 		(exclude_from_sim no)
 		(at 194.564 57.404 0)
@@ -6830,6 +6850,26 @@
 			)
 		)
 		(uuid "78903e46-087e-4f32-903b-0bbfa7ba8ea8")
+	)
+	(text "C579454"
+		(exclude_from_sim no)
+		(at 260.35 122.428 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e42e198-0cdf-45d6-9288-3a91ef0dcd5b")
+	)
+	(text "MCP73831T-2ACI/OT\nC424093"
+		(exclude_from_sim no)
+		(at 39.37 167.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ab20521-c85d-4d87-bee1-8ed5d572e14b")
 	)
 	(text "INT Push-Pull"
 		(exclude_from_sim no)
@@ -8847,7 +8887,7 @@
 		(fields_autoplaced yes)
 		(uuid "505f377f-74a8-4bf5-9f75-4ecb6a61a441")
 		(property "Reference" "C11"
-			(at 275.59 93.345 0)
+			(at 275.59 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,7 +8896,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 275.59 95.885 0)
+			(at 275.59 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8864,7 +8904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 272.7452 97.79 0)
 			(effects
 				(font
@@ -9057,7 +9097,7 @@
 		(fields_autoplaced yes)
 		(uuid "56a9f8eb-3a2f-4e2f-bf86-46af3f76b0a4")
 		(property "Reference" "C12"
-			(at 275.59 135.255 0)
+			(at 275.59 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,7 +9106,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 275.59 137.795 0)
+			(at 275.59 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9074,7 +9114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 272.7452 139.7 0)
 			(effects
 				(font
@@ -11793,7 +11833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C306879"
+		(property "Description" ""
 			(at 34.29 53.34 0)
 			(effects
 				(font
