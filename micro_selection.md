@@ -28,3 +28,5 @@ This is not a cheap programmer ($~87), and we may end up having a few to loan ou
 
 As referenced in my project proposal, there are other variants of these chips with different peripherals. The STM chip I'm using has a hardware RND in it, but there is no dev board.
 
+# 2025 Update -> This has changed a little. See current documentation in the course.
+
